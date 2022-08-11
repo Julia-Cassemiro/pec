@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: rgba(232, 231, 231, 0.47);
+
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+:root {
+	--header-height: 4.5rem;
+
+	/* colors */
+	--hue: 240;
+	/* HSL color mode */
+	--base-color: hsl(var(--hue) 36% 57%);
+	--base-color-second: hsl(var(--hue) 65% 88%);
+	--base-color-alt: hsl(var(--hue) 57% 53%);
+	--title-color: hsl(var(--hue) 41% 10%);
+	--text-color: hsl(0 0% 46%);
+	--text-color-light: hsl(0 0% 98%);
+	--body-color: hsl(0 0% 98%);
+
+	/* fonts */
+	--title-font-size: 1.875rem;
+	--subtitle-font-size: 1rem;
+
+	--title-font: 'Poppins', sans-serif;
+	--body-font: 'DM Sans', sans-serif;
+}
+
+
+.containerr .carde {
+	position: relative;
+	cursor: pointer;
+
+}
+
+.containerr .carde .face {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.containerr .carde .face.face1 {
+	
+	position: relative;
+	background: #aa7709;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	height: 150px;
+	border-radius: 25px 25px 0px 0px;
+	background: #91660a;
+	transform: translateY(0);
+	
+}
+
+/* .containerr .carde .face.face1 .contente {
+	opacity: 0.2;
+	transition: 0.5s;
+}
+
+.containerr .carde .face.face1 .contente {
+	opacity: 1;
+} */
+
+.containerr .carde .face.face1 .contente h3 {
+	margin-left: -10px;
+	padding: 0px;
+	color: #fff;
+	font-size: 20px;
+	text-align: start;
+}
+
+.containerr .carde .face.face1 .contente p {
+	margin-left: -10px;
+	color: rgba(213, 213, 213, 0.778);
+}
+
+
+.containerr .carde .face.face2 {
+	height: 240px;
+	background: #fff;
+	border-radius: 25px;
+	justify-content: left;
+	align-items: center;
+	padding: 26px;
+	box-sizing: border-box;
+	border-radius: 0px 0px 25px 25px;
+}
